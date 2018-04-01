@@ -85,7 +85,9 @@ ul li a i {
 
 }
 
-
+.myform {
+    padding: 70px;
+}
 
 ul li a i {
 	transition: all 0.2s ease-in-out;
