@@ -97,4 +97,12 @@ ul li a i:hover {
     padding: 70px;
 }
 
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
 
