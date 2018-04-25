@@ -1,3 +1,4 @@
+/** My footer */
 .footer {
     
     left: 0;
@@ -8,7 +9,7 @@
     text-align: center;
 }
 
-/* Header on index page for tribute logo */
+/** Header on index page for tribute logo */
 .tribute {
 	text-shadow: 2px 2px 5px grey;
 }
@@ -85,10 +86,6 @@ ul li a i {
 
 }
 
-.myform {
-    padding: 70px;
-}
-
 ul li a i {
 	transition: all 0.2s ease-in-out;
 }
@@ -96,5 +93,8 @@ ul li a i:hover {
 	opacity: .7;
 }
 
+.myform {
+    padding: 70px;
+}
 
 
