@@ -21,68 +21,72 @@ For the UX design process, I used an application called Pencil, to transfer my d
 
 ## Features
 
-Book Event - the website allows the user to submit interest in booking an event. The website asks for your contact details and then sends them acknowledges receipt of them.
+Book Event - the website allows the user to submit interest by  booking an event. The website asks for your contact details and then sends them an acknowledgement after it receives them..
 
-Listening to music - the website embeds youtube videos 
+Listening to music - the website embeds popular youtube videos for the enjoyment of the fans.
+
+Listing chronological songs / albums - the website presents all The Monkees latest and older content in chronological order.
  
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+- A fan based forum would be a good idea to implement in the future, where fans can gather and communicate with each other.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Bootstrap 4] (https://getbootstrap.com/)
+    - The project uses an html / css  library called Bootstrap. Bootstrap is a library that allows user responsive design on all different kinds of screens and devices. It also has a good few features that were used in this project. The navigation bar, the footer, the album carousel, and the layout grid were all used. 
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses JQuery as a dependency for Bootstrap.
+
+- [Font Awesome] (https://fontawesome.com/)
+    - Font Awesome is a website with icons that can be used on a site. For this project, Font Awesome was used for the facebook, twitter and youtube icons in the footer.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. Navigation:
+    1. Go to the "Home"page
+    2. The Home page should be selected in the navigation bar.
+    3. Click on another page in the navigation bar, for example 'Bio'
+    4. The new page should display and be the current selection in the navigation bar.
+    5. Do this for all other pages
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+2. Embedded Videos
+    1. Go to videos page or bio page.
+    2. Click on one of the videos.
+    3. The video from youtube should loads up and play like you are listening from the youtube site.
+    4. Do for each video
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+3. Book Event
+    1. Click on book event on the introduction or gigs page.
+    2. Fill in the details.
+    3. Hit submit
+    4. The website should confirm the details and send you to a webpage thanking you.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+I tested the website on a laptop, a notebook, a tablet and a mobile phone. I also used the chrome / internet explorer developer tools to display it on different devices.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+In some situations, I had to adjust space to accomodate different sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The footer appeared to be problematic during testing. The bootstrap container grid adds in extra spacing, larger than the footer container, and this had to be changed. Also, the footer was appearing in the middle in certain pages, and this had to be fixed too.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The website is deployed on Github. 
+https://andrew-carton.github.io/monkees/
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All written content was obtained and revised from Wikipedia site (https://en.wikipedia.org/wiki/The_Monkees)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Wikipedia and Google Images.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for a lot of the features of this site, by reading through the bootstrap documentation. The bootstrap documentation gave me inspiration to create the website in the easiest way possible, while allowing other screen sizes to be accomodated. Some of the features like the carousel album rotator were got from bootstrap documentation.
+
+
 
